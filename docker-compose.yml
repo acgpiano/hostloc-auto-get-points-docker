@@ -1,0 +1,8 @@
+version: "3"
+services:
+  xrayr:
+    image: acgpiano/hostloc:latest
+    container_name: hostloc
+    environment:
+      - HOSTLOC_USERNAME=username1,username2
+      - HOSTLOC_PASSWORD=password1,password2
